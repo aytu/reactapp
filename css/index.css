@@ -1,0 +1,33 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    background-color: teal;
+    height: 56px;
+}
+.content{
+    height: 100vh;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    /* align-items:flex-end; */
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 56px;
+    background-color: teal;
+}
+ 
+.container{
+    width: 50%;
+    height: 20%;
+    background-color: yellow;
+   
+}
